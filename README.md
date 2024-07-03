@@ -19,7 +19,7 @@ The scene is composed of a Game Manager, a UI Manager, an Audio Manager, the par
 The Game Settings define the Level we want to load, the Map Layout (or Map appearance) we want to see, the enemies that will be used, and the total player Lives.
 With this information, the game manager will load the Map, the game's main settings, and their dependencies from Start().
 
-[![Game Setup](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/editor_setup.png)
+![Game Setup](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/editor_setup.png)
 
 
 First, the map's text file is decoded so the Level information is extracted (Map grid and Enemy waves).
@@ -38,7 +38,7 @@ From here, the Game manager will be listening for some main events from the Game
 
 - Game -
 
-[![gameplay_example](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/gameplay1.png)
+![gameplay_example](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/gameplay1.png)
 
 Enemies Manager
 
@@ -56,7 +56,7 @@ They are defined with Enemy_Data scriptable objects, where their total hp, veloc
 
 They also trigger events when they attack or die, so others can listen to these events without knowing about their existence.
 
-[![Enemies](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/enemyController_ScriptableObj.png)
+![Enemies](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/enemyController_ScriptableObj.png)
 
 
 Towers / Tower Controller
@@ -67,7 +67,7 @@ As soon as their Trigger detects an enemy, it will target and shoot it.
 The shoot process involves a ShootRequest method that triggers an event that will spawn and shoot a projectile in the desired position.
 So the towers are not responsible for the projectiles they shoot.
 
-[![Towers](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/tower_scriptableObj.png)
+![Towers](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/tower_scriptableObj.png)
 
 
 Projectiles Manager
@@ -85,7 +85,7 @@ From it, projectiles obtain their damage to units, the attack radius, the attack
 They follow the targeted enemy using the utils static class MoveToTarget, as Enemies does.
 If the target dies in the process, the projectile will despawn.
 
-[![Projectiles](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/projectileBomb_scriptableObj.png)
+![Projectiles](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/projectileBomb_scriptableObj.png)
 
 
 Audio Manager
@@ -99,16 +99,16 @@ It’s a pretty solid manager for small projects like this one, with not too man
 
 The volumes are also controlled by a Mixer having its master, and Music and SFX channels on it, so it could be easily configurable from an in-game menu.
 
-[![Audio Manager](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/audioManager.png)
+![Audio Manager](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/audioManager.png)
 
 
 Gameplay screenshots
 
 The game uses basic Post Processing processes to improve the overall look and feel without compromising the performance.
 
-[![gameplay 2](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/gameplay2.png)
+![gameplay 2](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/gameplay2.png)
 
-[![Level completed](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/levelCompleted.png)
+![Level completed](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/levelCompleted.png)
 
 [![Game Over](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/gameOver.png)
 
