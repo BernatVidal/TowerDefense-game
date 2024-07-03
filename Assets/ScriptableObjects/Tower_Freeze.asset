@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30171ed3100b5fb408663dca03dfe67a, type: 3}
+  m_Name: Tower_Freeze
+  m_EditorClassIdentifier: 
+  Name: Tower_Freeze
+  dettectionRadius: 7
+  attackRecovery: 5
+  towerPrefab: {fileID: 7556241691229743739, guid: 12ad9ceb3b7610c49900eef48dc807dd, type: 3}
+  projectileData: {fileID: 11400000, guid: 3fb5d1825e5d6f34c864122362a381dd, type: 2}
+  animations:
+  - animationType: 4
+    animationClip: {fileID: 7400000, guid: d41edc0276295fa4ab3a36d55b1dd74e, type: 2}
+  - animationType: 1
+    animationClip: {fileID: 7400000, guid: f04252fde72e75041b0aaca992b9d73c, type: 2}
+  shootSFX: 8

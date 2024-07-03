@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49454f3f197aa674f92dd59de2bb15a6, type: 3}
+  m_Name: Enemy_Elite
+  m_EditorClassIdentifier: 
+  Name: Enemy_Elite
+  velocity: 1.5
+  hp: 15
+  enemyPrefab: {fileID: 3398555056175532707, guid: a5be4e63f5dc02341a9fb6663529433b, type: 3}
+  animations:
+  - animationType: 0
+    animationClip: {fileID: 7400000, guid: 29aefb5f354ef414099d5d72f4702cf7, type: 3}
+  - animationType: 1
+    animationClip: {fileID: 7400000, guid: c256d06ac23fc304783b388694974f3e, type: 3}
+  - animationType: 2
+    animationClip: {fileID: 7400000, guid: 18abc2beedf0b4a499d3f8f43782198e, type: 3}
+  - animationType: 3
+    animationClip: {fileID: 7400000, guid: 3014723763036b442b52f60b16e2aa31, type: 3}
+  dieSoundFX: 5

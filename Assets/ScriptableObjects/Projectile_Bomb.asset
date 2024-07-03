@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0016e081c246f2343bd6d4f0c2e3e136, type: 3}
+  m_Name: Projectile_Bomb
+  m_EditorClassIdentifier: 
+  Name: Projectile_Bomb
+  damage: 1
+  attackRadius: 5
+  attackDuration: 0.01
+  projectileVelocity: 5
+  doFollowPlayerOnImpact: 0
+  projectilePrefab: {fileID: 5306310340524604014, guid: 471fe0e2562f92e498bdd79125db2a58, type: 3}
+  explosionSoundFX: 7

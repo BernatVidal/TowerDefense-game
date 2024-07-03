@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed807467aa5f2694e99064ad0fbcb987, type: 3}
+  m_Name: MapLayout_Forest
+  m_EditorClassIdentifier: 
+  boundariesSize: 5
+  prefab_pathCell: {fileID: 5674177970564201194, guid: b1047671ca05fed46b7e6f2ff3e044c7, type: 3}
+  prefab_mapBoundaryCell: {fileID: 5347594290264258116, guid: 0cc1d920f6cb3c24393068da36c33641, type: 3}
+  prefab_obstacleCell: {fileID: 6272431378466787450, guid: 2371400cb70e76e40b96bf6dc9122917, type: 3}
+  prefab_obstacles:
+  - {fileID: 3775482974133355187, guid: b91d65b2369e54444a46467d1697aeb2, type: 3}
+  - {fileID: 7039625438816049231, guid: 43309e1b053855d49b525323255838cd, type: 3}
+  - {fileID: 380888892554528738, guid: af28f361b4be0aa42af3879ef8c39680, type: 3}
+  - {fileID: 2077304671263995809, guid: d9633145f2fad48439576f06054f261c, type: 3}
+  prefab_enemySpawn: {fileID: 4080774621077102947, guid: 84cd3584cec9157408832d49b84a714c, type: 3}
+  prefab_playerTower: {fileID: 6658673684124917515, guid: b1c43142a67caeb46bb83422566dfe01, type: 3}
+  prefab_bombTower: {fileID: 8421131364312233575, guid: 48b972f921b64344482df59b00c1eb6e, type: 3}
+  prefab_freezeTower: {fileID: 7556241691229743739, guid: 12ad9ceb3b7610c49900eef48dc807dd, type: 3}
+  music: 1
