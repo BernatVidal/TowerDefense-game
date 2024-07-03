@@ -27,7 +27,8 @@ During the process, it detects some possible errors/corner cases on the file and
 After this process, the map is generated. Using the prefabs on the Map_Layout scriptable object we selected, it will use the map grid to generate the desired map and return the Path to solve it.
 
 ![MapText](https://github.com/BernatVidal/TowerDefense-game/blob/main/Screenshots/levelText.png)
-(Example of level. First level grid with the path, walls and towers, and then the spawn sequence (according to test specs)).
+
+(Example of a level layout definition. First level grid with the path, walls and towers, and then the spawn sequence (according to test specs)).
 
 The pathfinding algorithm used is a simple Depth First Search algorithm. As the types of maps used in Tower Defense usually are narrow single-unit paths, I implemented a simple DFS algorithm that doesn't keep track of the best path (implementing a score system), as when the path is found it will probably be the only path to the End Tile. A more robust way could be easily implemented, but the complexity and process consumption of it would easily grow.
 If any error occurs during the process it will also stop the application and use the custom logger to show what happened.
